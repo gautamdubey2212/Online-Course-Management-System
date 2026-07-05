@@ -145,27 +145,39 @@ http://localhost:4000
 
 ---
 
-## 🏠 Dashboard
+## 🏠 Dashboard / Home Page
 
 ![Dashboard](Screenshots/DashboardImage.png)
 
 ---
 
-## ➕ Insert Course
+## ➕ Insert Course Page
 
 ![Add Course](Screenshots/AddCourse.png)
 
 ---
 
-## 📋 Display Courses
+## 📋 Display Courses Page
 
 ![Display Courses](Screenshots/viewCourse.png)
 
 ---
 
-## ✏ Update Course
+## ✏ Update Course Page
 
 ![Update Course](Screenshots/EditCourse.png)
+
+---
+
+## ❌ Delete Course (Before Deletion)
+
+![Delete Before](Screenshots/BeforeDelete.png)
+
+---
+
+## ✅ Delete Course (After Deletion)
+
+![Delete After](Screenshots/AfterDelete.png)
 
 ---
 
@@ -183,19 +195,7 @@ http://localhost:4000
 
 ## 📁 GitHub Repository Structure
 
-> Add the GitHub repository screenshot here after uploading the project.
-
-```text
-Example:
-Screenshots/GitHubRepo.png
-```
-
-After taking the screenshot, replace the above text with:
-
-```md
-![GitHub Repository](Screenshots/GitHubRepo.png)
-```
-
+![GitHub Repository](Screenshots/GitHub-RepoStructure.png)
 ---
 
 # 📊 Database
