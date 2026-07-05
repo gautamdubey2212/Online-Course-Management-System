@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Add Course</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container col-md-6 mt-5">
+
+    <h2 class="text-center mb-4">Add Course</h2>
+
+    <form action="/insertCourse" method="POST">
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Cname" name="Cname" placeholder="Course Name" required>
+            <label for="Cname">Course Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Tname" name="Tname" placeholder="Trainer Name" required>
+            <label for="Tname">Trainer Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Duration" name="Duration" placeholder="Duration" required>
+            <label for="Duration">Duration</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="Fees" name="Fees" placeholder="Fees" required>
+            <label for="Fees">Fees</label>
+        </div>
+
+        <button class="btn btn-primary w-100" type="submit">
+            Add Course
+        </button>
+
+    </form>
+
+    <a href="/dashboard" class="btn btn-secondary mt-3">Back</a>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
